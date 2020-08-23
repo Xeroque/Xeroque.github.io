@@ -1,0 +1,80 @@
+/* main */
+body {
+  background-color: #F0EFF4;
+  font-family: 'Roboto Slab', serif;
+}
+a{
+  color: #0F1A20;;
+}
+a:hover{
+  text-decoration: none;
+  color: #0F1A20;;
+}
+/* for the h2 named whats on my mind */
+#whatsonmymind {
+  color: #0F1A20;
+  padding-top: 5vh;
+  padding-left: 10vw;
+}
+/* fading is used to make the text on cards fade */
+.fading{
+    background: -webkit-linear-gradient(#0F1A20, #F0EFF4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+/* Titlecard Static Part*/
+.avatar{
+  display: block;
+  height: 30vh;
+  margin: auto;
+}
+.titlecard p {
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 3rem;
+  font-size: 4vw;
+  color: #0F1A20;
+}
+
+/* Titlecard Fluid Part*/
+.typed-text {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 6vw;
+  color: #0072BB;
+}
+
+/* Titlecard Blinking Cursor*/
+.cursor {
+  display: inline-block;
+  background-color: #0072BB;
+  width: .2rem;
+  margin-left: .3rem;
+  animation: blink 1s infinite;
+}
+
+.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #0072BB;
+  }
+
+  49% {
+    background-color: #0072BB;
+  }
+
+  50% {
+    background-color: transparent
+  }
+
+  99% {
+    background-color: transparent
+  }
+
+  100% {
+    border-color: #0072BB
+  }
+}
