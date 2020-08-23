@@ -17,7 +17,7 @@
     "Twitter, Inc."
   ],
   "scripts": {
-    "build": "jekyll build && mv ./ public",
+    "build": "jekyll build",
     "bundlesize": "bundlesize",
     "css": "npm-run-all --parallel css-lint* css-compile* --sequential css-prefix* css-minify*",
     "css-main": "npm-run-all --parallel css-lint css-compile --sequential css-prefix css-minify",
