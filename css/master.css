@@ -1,4 +1,7 @@
 /* main */
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
 body {
   background-color: #F0EFF4;
   font-family: 'Roboto Slab', serif;
