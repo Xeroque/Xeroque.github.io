@@ -13,6 +13,41 @@ a:hover{
   text-decoration: none;
   color: #0F1A20;;
 }
+/* for the galery*/
+.galeryrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.galerycolumn {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.galerycolumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .galerycolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .galerycolumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 /* for the h2 named whats on my mind */
 #whatsonmymind {
   color: #0F1A20;
@@ -36,14 +71,14 @@ a:hover{
   text-align: center;
   margin-bottom: 0;
   padding-top: 3rem;
-  font-size: 4vw;
+  font-size: 4vh;
   color: #0F1A20;
 }
 
 /* Titlecard Fluid Part*/
 .typed-text {
   font-family: 'Abril Fatface', cursive;
-  font-size: 6vw;
+  font-size: 6vh;
   color: #0072BB;
 }
 
