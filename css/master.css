@@ -74,7 +74,9 @@ a:hover{
   font-size: 4vh;
   color: #0F1A20;
 }
-
+.spacer{
+  margin-bottom: 5vh;
+}
 /* Titlecard Fluid Part*/
 .typed-text {
   font-family: 'Abril Fatface', cursive;
