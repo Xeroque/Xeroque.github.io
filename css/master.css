@@ -48,6 +48,9 @@ a:hover{
     max-width: 100%;
   }
 }
+.customalbum:hover{
+  opacity: 0.8;
+}
 /* for the h2 named whats on my mind */
 #whatsonmymind {
   color: #0F1A20;
