@@ -20,6 +20,9 @@ a:hover{
   padding: 0 4px;
 }
 /* for the C.V.*/
+.CV{
+  padding: 3vh 3vw 3vh 3vw;
+}
 .CVHeading{
   font-family: 'Montserrat', sans-serif;
   color: #8d07f6;
