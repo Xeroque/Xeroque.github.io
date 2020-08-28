@@ -19,7 +19,11 @@ a:hover{
   flex-wrap: wrap;
   padding: 0 4px;
 }
-
+/* for the C.V.*/
+.CVHeading{
+  font-family: 'Montserrat', sans-serif;
+  color: #8d07f6;
+}
 /* Create four equal columns that sits next to each other */
 .galerycolumn {
   flex: 25%;
