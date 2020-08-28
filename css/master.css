@@ -22,9 +22,12 @@ a:hover{
 /* for the C.V.*/
 .CV{
   padding: 3vh 3vw 3vh 3vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 .CVHeading{
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   color: #8d07f6;
 }
 /* Create four equal columns that sits next to each other */
