@@ -34,6 +34,7 @@ a:hover{
 .CVTopics{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  letter-spacing: 0.4 vh;
   color: #0a1747;
 }
 /* Create four equal columns that sits next to each other */
