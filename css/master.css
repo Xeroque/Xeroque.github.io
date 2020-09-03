@@ -58,7 +58,6 @@ box-shadow: inset 18px 18px 36px #7806d1,
   vertical-align: middle;
   width: 100%;
 }
-
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .galerycolumn {
@@ -70,6 +69,10 @@ box-shadow: inset 18px 18px 36px #7806d1,
 .width70{
   width: 70vw;
   margin: 0 auto;
+}
+/*For the blog posts*/
+.blogimage{
+  width: 40vw;
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
