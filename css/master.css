@@ -73,7 +73,7 @@ box-shadow: inset 18px 18px 36px #7806d1,
 /*For the blog posts*/
 .blogimage {
         display: inline-block;
-        width: 70vw%;
+        width: 70vw;
         margin: auto;
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
