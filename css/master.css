@@ -74,14 +74,14 @@ box-shadow: inset 18px 18px 36px #7806d1,
 .blogimage (max-width: 1200px) {
     img {
         display: inline-block;
-        width: 50%;
+        width: 40vw%;
     }
 }
 
 .blogimage (max-width: 360px) {
     img {
         display: block;
-        width: 100%;
+        width: 70vw%;
     }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
