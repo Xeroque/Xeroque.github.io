@@ -41,6 +41,7 @@ a:hover{
 background: #8d07f6;
 box-shadow: inset 18px 18px 36px #7806d1,
             inset -18px -18px 36px #a208ff;
+            padding: 1vh 1vw 1vh 1vw;
 }
 /* Create four equal columns that sits next to each other */
 .galerycolumn {
