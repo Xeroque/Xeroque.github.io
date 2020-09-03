@@ -37,6 +37,9 @@ a:hover{
 }
 /*For the Contact Page */
 .contactme{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: white;
   border-radius: 50px;
 background: #8d07f6;
 box-shadow: inset 18px 18px 36px #7806d1,
