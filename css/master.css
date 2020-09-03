@@ -35,6 +35,13 @@ a:hover{
   font-weight: 600;
   color: #0a1747;
 }
+/*For the Contact Page */
+.contactme{
+  border-radius: 50px;
+background: #8d07f6;
+box-shadow: inset 18px 18px 36px #7806d1,
+            inset -18px -18px 36px #a208ff;
+}
 /* Create four equal columns that sits next to each other */
 .galerycolumn {
   flex: 25%;
