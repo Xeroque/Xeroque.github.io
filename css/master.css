@@ -1,51 +1,62 @@
 /* main */
 .navbar-collapse.collapse.in {
-  display: block!important;
+  display: block !important;
 }
+
 body {
   background-color: #F0EFF4;
   font-family: 'Roboto Slab', serif;
 }
-a{
-  color: #0F1A20;;
+
+a {
+  color: #0F1A20;
+  ;
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
-  color: #0F1A20;;
+  color: #0F1A20;
+  ;
 }
+
 /* for the galery*/
 .galeryrow {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
+
 /* for the C.V.*/
-.CV{
+.CV {
   padding: 3vh 3vw 3vh 3vw;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
-.CVHeading{
+
+.CVHeading {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: #8d07f6;
 }
-.CVTopics{
+
+.CVTopics {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: #0a1747;
 }
+
 /*For the Contact Page */
-.contactme{
+.contactme {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: white;
   border-radius: 50px;
-background: #8d07f6;
-box-shadow: inset 18px 18px 36px #7806d1,
-            inset -18px -18px 36px #a208ff;
-            padding: 1vh 1vw 1vh 1vw;
+  background: #8d07f6;
+  box-shadow: inset 18px 18px 36px #7806d1,
+    inset -18px -18px 36px #a208ff;
+  padding: 1vh 1vw 1vh 1vw;
 }
+
 /* Create four equal columns that sits next to each other */
 .galerycolumn {
   flex: 25%;
@@ -58,6 +69,7 @@ box-shadow: inset 18px 18px 36px #7806d1,
   vertical-align: middle;
   width: 100%;
 }
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .galerycolumn {
@@ -65,17 +77,20 @@ box-shadow: inset 18px 18px 36px #7806d1,
     max-width: 50%;
   }
 }
+
 /*For width adjustment*/
-.width70{
+.width70 {
   width: 70vw;
   margin: 0 auto;
 }
+
 /*For the blog posts*/
 .blogimage {
-        display: inline-block;
-        width: 50vw;
-        margin: auto;
+  display: block;
+  width: 50vw;
+  margin: auto;
 }
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .galerycolumn {
@@ -83,28 +98,32 @@ box-shadow: inset 18px 18px 36px #7806d1,
     max-width: 100%;
   }
 }
-.customalbum:hover{
+
+.customalbum:hover {
   opacity: 0.8;
 }
+
 /* for the h2 named whats on my mind */
 #whatsonmymind {
   color: #0F1A20;
   padding-top: 5vh;
   padding-left: 10vw;
 }
-/* fading is used to make the text on cards fade */
-.fading{
-    background: -webkit-linear-gradient(#0F1A20, #F0EFF4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 
+/* fading is used to make the text on cards fade */
+.fading {
+  background: -webkit-linear-gradient(#0F1A20, #F0EFF4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 /* Titlecard Static Part*/
-.avatar{
+.avatar {
   display: block;
   height: 30vh;
   margin: auto;
 }
+
 .titlecard p {
   text-align: center;
   margin-bottom: 0;
@@ -112,11 +131,13 @@ box-shadow: inset 18px 18px 36px #7806d1,
   font-size: 4vh;
   color: #0F1A20;
 }
-.spacer{
+
+.spacer {
   margin-left: 5vw;
   margin-right: 5vw;
   padding-bottom: 10vh;
 }
+
 /* Titlecard Fluid Part*/
 .typed-text {
   font-family: 'Abril Fatface', cursive;
