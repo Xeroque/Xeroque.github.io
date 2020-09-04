@@ -2,7 +2,7 @@
 COMPUTERS THESE DAYS HAVE MEMORY FOR THIS RIGHT?*/
 window.addEventListener("DOMContentLoaded", scrollLoop, false);
 
-var productphotography1 = document.querySelector('.productphotography2');
+var productphotography2 = document.querySelector('.productphotography2');
 var xScrollPosition
 var yScrollPosition
 
