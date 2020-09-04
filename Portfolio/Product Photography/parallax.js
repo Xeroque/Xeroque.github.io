@@ -2,7 +2,7 @@
 COMPUTERS THESE DAYS HAVE MEMORY FOR THIS RIGHT?*/
 window.addEventListener("DOMContentLoaded", scrollLoop, false);
 
-var orangeblob = document.querySelector('.productphotography1');
+var productphotography1 = document.querySelector('.productphotography1');
 var floatingbread = document.querySelector('.productphotography2');
 var floatingberries = document.querySelector('.productphotography3');
 var floatingcupcake = document.querySelector('.productphotography4');
