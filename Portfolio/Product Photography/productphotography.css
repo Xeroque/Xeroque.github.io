@@ -1,3 +1,6 @@
+body{
+  background-color: #8C4843;
+}
 .productphotographybackground{
   background-image: url("/images/ProductPhotography/ProductPhotography_1.jpg");
   background-size: 100%;
