@@ -5,20 +5,8 @@ p{
   color: #F0EFF4;
   margin-top: 5vh;
 }
-.productphotographybackground{
-  background-image: url("/images/ProductPhotography/ProductPhotography_1.jpg");
-  background-size: 100%;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  background-repeat: no-repeat;
-  z-index: -10;
-  background-position: center;
-  top: 0;
-  opacity: .75
-}
 .productphotography1{
-  background-image: url("/images/ProductPhotography/ProductPhotography_2.jpg");
+  background-image: url("/images/ProductPhotography/film.png");
   background-size: 40%;
   width: 100vw;
   height: 100vh;
