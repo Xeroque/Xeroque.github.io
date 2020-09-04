@@ -1,4 +1,4 @@
-.productphotography1{
+.productphotographybackground{
   background-image: url("/images/ProductPhotography/ProductPhotography_1.jpg");
   background-size: 100%;
   width: 100vw;
@@ -10,17 +10,16 @@
   top: 0;
   opacity: .75
 }
-.productphotography2{
-  background-image: url("./images/Curve.png");
-  background-size: 100%;
+.productphotography1{
+  background-image: url("/images/ProductPhotography/ProductPhotography_2.jpg");
+  background-size: 40%;
   width: 100vw;
   height: 100vh;
   position: fixed;
   background-repeat: no-repeat;
   z-index: -10;
-  background-position: center;
+  background-position:right;
   top: 0;
-  opacity: .75
 }
 .productphotography3{
   background-image: url("./images/Curve.png");
