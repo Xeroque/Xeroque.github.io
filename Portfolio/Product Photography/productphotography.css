@@ -3,6 +3,7 @@ body{
 }
 p{
   color: #F0EFF4;
+  margin-top: 5vh;
 }
 .productphotographybackground{
   background-image: url("/images/ProductPhotography/ProductPhotography_1.jpg");
