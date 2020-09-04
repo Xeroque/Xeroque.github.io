@@ -3,6 +3,7 @@ COMPUTERS THESE DAYS HAVE MEMORY FOR THIS RIGHT?*/
 window.addEventListener("DOMContentLoaded", scrollLoop, false);
 
 var productphotography1 = document.querySelector('.productphotography1');
+var productphotography1 = document.querySelector('.productphotography2');
 var xScrollPosition
 var yScrollPosition
 
@@ -11,6 +12,7 @@ function scrollLoop(e){
     yScrollPosition = window.scrollY;
 
     setTranslate(0, yScrollPosition * 0.2, productphotography1);
+    setTranslate(0, yScrollPosition * -0.5, productphotography2);
     requestAnimationFrame(scrollLoop)
 }
 
