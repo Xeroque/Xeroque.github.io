@@ -5,6 +5,9 @@ p{
   color: #F0EFF4;
   margin-top: 5vh;
 }
+.paddingleft15{
+padding-left: 15vw; 
+}
 .productphotography1{
   background-image: url("/images/ProductPhotography/film.png");
   background-size: 100%;
