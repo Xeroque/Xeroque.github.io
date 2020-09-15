@@ -1,13 +1,16 @@
-body{
+body {
   background-color: #F0EFF4;
 }
-p{
+
+p {
   color: #0F1A20;
   margin-top: 5vh;
 }
-.blogimage{
+
+.blogimage {
   width: 20vw;
 }
+
 a {
   color: #0a1747;
   ;
@@ -17,4 +20,8 @@ a:hover {
   text-decoration: none;
   color: #8d07f6;
   ;
+}
+
+.width70 {
+  width: 70vw;
 }
