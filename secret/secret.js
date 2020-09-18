@@ -47,8 +47,8 @@ function drawChart() {
     ['Ana Sancheira', 'Waiting for response', 1],
     ['Flexibeos', 'Waiting for response', 1],
     ['Lareira Baixa', 'Waiting for response', 1],
-    ['Grupo Lima', 'Waiting for response', 2],
-    ['Distance Interview', 'Waiting for response', 2]
+    ['Grupo Lima', 'Waiting for response', 1],
+    ['Grupo Lima', 'Might be Interviewd', 1]
   ]);
 
   // Sets chart options.
