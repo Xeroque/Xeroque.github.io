@@ -11,6 +11,8 @@ function drawChart() {
   data.addRows([
     ['LinkedIn', 'Nike', 1],
     ['LinkedIn', 'Igus', 1],
+    ['LinkedIn', 'IKEA', 1],
+    ['LinkedIn', 'Reiman', 1],
     ['LinkedIn', 'empregos.org', 3],
     ['empregos.org', 'ESTRATEGOR', 1],
     ['empregos.org', 'EQUIPLEVA', 1],
@@ -28,6 +30,8 @@ function drawChart() {
     ['NetEmpregos', 'Lareira Baixa', 1],
     ['NetEmpregos', 'Grupo Lima', 2],
     ['NetEmpregos', 'Manpower Portugal', 1],
+    ['NetEmpregos', 'Print Criativa', 1],
+    ['NetEmpregos', 'Predibisa', 1],
     ['Manpower Portugal', 'Distance Interview', 1],
     ['Olegario', 'Distance Interview', 1],
     ['Nike', 'Refused', 1],
@@ -48,7 +52,9 @@ function drawChart() {
     ['Flexibeos', 'Waiting for response', 1],
     ['Lareira Baixa', 'Waiting for response', 1],
     ['Grupo Lima', 'Waiting for response', 1],
-    ['Grupo Lima', 'Might be Interviewd', 1]
+    ['IKEA', 'Email Response', 1],
+    ['Predibisa', 'Email Response', 1],
+    ['Grupo Lima', 'Email response', 1]
   ]);
 
   // Sets chart options.
