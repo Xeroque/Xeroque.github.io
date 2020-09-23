@@ -52,9 +52,11 @@ function drawChart() {
     ['Flexibeos', 'Waiting for response', 1],
     ['Lareira Baixa', 'Waiting for response', 1],
     ['Grupo Lima', 'Waiting for response', 1],
+    ['Reiman', 'Waiting for response', 1],
+    ['Print Criativa', 'Waiting for response', 1],
     ['IKEA', 'Email Response', 1],
     ['Predibisa', 'Email Response', 1],
-    ['Grupo Lima', 'Email response', 1]
+    ['Grupo Lima', 'Email Response', 1]
   ]);
 
   // Sets chart options.
