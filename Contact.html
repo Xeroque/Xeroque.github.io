@@ -45,16 +45,14 @@
   </nav>
   <div class="CV">
     <h1 class="CVHeading">Contact me</h1>
-    <div class="contact-form">
-      <form id="contact-form" action="/contact-form-handler.php" method="post">
-        <input type="text" name="name" class="form-control" placeholder="name" required>
-        <br>
-        <input type="email" name="email" class="form-control" placeholder="email" required>
-        <br>
-        <textarea name="message" rows="4" class="form-control" placeholder="message" required></textarea>
-        <input type="submit" class="form-control submit" value="SEND MESSAGE">
-      </form>
-    </div>
+    <form action="https://formsubmit.co/eduardo.daviddesousa@gmail.com" method="POST">
+     <input type="text" name="name" required>
+     <input type="email" name="email" required>
+     <input type="text" name="message" required>
+     <input type="hidden" name="_subject" value="New submission!">
+     <input type="hidden" name="_next" value="www.eduardomdsousa.com">
+     <button type="submit">Send</button>
+</form>
           </div>
   <!-- script for 3d model -->
   <script type="text/javascript" src="js/three.js"></script>
