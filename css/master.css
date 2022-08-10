@@ -7,7 +7,10 @@ body {
   background-color: #F0EFF4;
   font-family: 'Space Mono', monospace;
   overflow-x: hidden;
-  width: 100%;
+  position: relative
+}
+html{
+  overflow-x: hidden;
 }
 /* menu links */
 a {
