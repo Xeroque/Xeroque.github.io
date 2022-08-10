@@ -105,8 +105,11 @@ width: 370px;
   animation-duration: 1s;
 }
 @keyframes expand {
-  from {height: 0px;}
-  to {height: 100px;}
+  from {height: 0px;
+  color: none;}
+  to {height: 100px;
+  color: white;}
+
 }
 /* Create four equal columns that sits next to each other */
 .galerycolumn {
