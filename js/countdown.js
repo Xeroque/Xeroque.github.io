@@ -1,7 +1,7 @@
-var time = 30 * 60;
+var time = 30;
 setInterval(function() {
-  var seconds = time % 60;
-  var minutes = (time - seconds) / 60;
+  var seconds = time % 30;
+  var minutes = (time - seconds) / 30;
   if (seconds.toString().length == 1) {
     seconds = "0" + seconds;
   }
