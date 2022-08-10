@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178394785-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-178394785-1');
+</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta charset="utf-8">
+  <title>Eduardo S</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/master.css">
+  <!-- linking Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <!-- legacy font -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet"> -->  <link rel="icon" href="https://raw.githubusercontent.com/Xeroque/Xeroque.github.io/master/favicon.ico" />
+</head>
+
+<body>
+  <!-- navbar beginning -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/index.html">Eduardo S.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <!-- <a class="nav-item nav-link active" href="#">Me <span class="sr-only">(current)</span></a> -->
+        <a class="nav-item nav-link" href="Portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link" href="EduardoSousa-CV.pdf">C.V.</a>
+        <a class="nav-item nav-link" href="blog.html">Blog</a>
+        <a class="nav-item nav-link active" href="Contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <div class="CV">
+    <div class="sucessbanner">
+<h1>Your message was sent!</h1>
+<p>you'll be redirected to the homepage in <span id="time">Loading...</span></p>
+    </div>
+    <!-- Script for the countdown -->
+    <script type="text/javascript" src="js/countdown.js"></script>
+<div class="contactform card mb-4 box-shadow">
+  <h1 class="CVHeading">Contact me</h1>
+       <form action="https://formsubmit.co/0908012d7c990ce7cc21f84ca9c8409d" method="POST">
+       <input class="formbox" type="text" name="name" placeholder="Name" required>
+       <br><br>
+       <input class="formbox" type="email" name="email" placeholder="Email" required>
+       <br><br>
+       <textarea class="formbox" placeholder="Your Message" name="message" rows="5" required></textarea>
+       <br>
+       <input type="text" name="_honey" style="display:none">
+       <input type="hidden" name="_subject" value="New submission!">
+       <br>
+       <input type="hidden" name="_captcha" value="false">
+       <input type="hidden" name="_next" value="https://eduardomdsousa.com/index.html">
+       <button class="contactme" type="submit">Send</button>
+  </form>
+</div>
+          </div>
+  <!-- script for 3d model -->
+  <script type="text/javascript" src="js/three.js"></script>
+  <script type="text/javascript" scr="js/GLTFLoader.js"></script>
+  <script type="text/javascript" src="js/threesettings.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.addEventListener('load', function(){
+  window.cookieconsent.initialise({
+   revokeBtn: "<div class='cc-revoke'></div>",
+   type: "opt-in",
+   theme: "classic",
+   palette: {
+       popup: {
+           background: "#000",
+           text: "#fff"
+        },
+       button: {
+           background: "#fd0",
+           text: "#000"
+        }
+    },
+   content: {
+       link: "About consent",
+       href: "https://2gdpr.com/cookies"
+    },
+    onInitialise: function(status) {
+      if(status == cookieconsent.status.allow) myScripts();
+    },
+    onStatusChange: function(status) {
+      if (this.hasConsented()) myScripts();
+    }
+  })
+});
+
+function myScripts() {
+
+   // Paste here your scripts that use cookies requiring consent. See examples below
+
+   // Google Analytics, you need to change 'UA-00000000-1' to your ID
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-178394785-1', 'auto');
+      ga('send', 'pageview');
+
+
+   // Facebook Pixel Code, you need to change '000000000000000' to your PixelID
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '000000000000000');
+      fbq('track', 'PageView');
+
+}
+</script>
+</body>
+
+</html>
