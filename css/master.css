@@ -95,7 +95,11 @@ width: 370px;
 
   padding: 1vh 1vw 1vh 1vw;
 }
-
+.sucessbanner{
+  margin: 10px;
+  background:  #8d07f6;
+  color: white;
+}
 /* Create four equal columns that sits next to each other */
 .galerycolumn {
   flex: 25%;
