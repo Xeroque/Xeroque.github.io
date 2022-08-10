@@ -2,7 +2,9 @@
 .navbar-collapse.collapse.in {
   display: block !important;
 }
-
+button{
+  outline: none;
+}
 body {
   background-color: #F0EFF4;
   font-family: 'Space Mono', monospace;
@@ -30,24 +32,15 @@ a:hover {
   margin-left: 75px;
   margin-right: 10px;
   width: 70%;
-
-}
-.container{
-  position: relative;
-}
-.container .homebutton {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 .myimage{
   background-image: url('https://github.com/Xeroque/Xeroque.github.io/blob/master/images/Eduardo%20Sousa.jpg?raw=true');
-  background-size: contain;
-  margin-top: -500px;
-  height: 120vh;
-  width: 50vw;
+  background-size:1000px;
+  margin-top: -480px;
+  margin-left: 100px;
+  height: 1000px;
+  width:1000px;
+  transition: background-image 0.2s ease-in-out;
 }
 .myimage:hover{
   background-image: url('https://github.com/Xeroque/Xeroque.github.io/blob/master/images/Eduardo%20Sousa%20Selected.jpg?raw=true');
@@ -58,15 +51,40 @@ a:hover {
       .myimage {
         height: 0PX;
        }
-      .myimagemobile{
-        height: 100px;
-      }
 }
-@media (min-width: 1366px) {
-
-      .myimagemobile {
-        height: 0PX;
-       }
+.calltoactionmain{
+  margin-left: 17vw;
+  border:none;
+  color: #F0EFF4;
+  background:#8d07f6;
+  padding: 20px;
+  transition: background 0.2s ease-in-out;
+}
+.calltoactionmain:hover{
+  background: green;
+}
+.calltoactionsecondary{
+  margin-left: 3vw;
+  margin-right: auto;
+  border: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+  border-color: #0a1747;
+  transition: font-weight 0.2s ease-in-out;
+  transition: border-width 0.1s ease-in-out;
+}
+.calltoactionsecondary:hover{
+  font-weight: bold;
+  margin-left: 3vw;
+  margin-right: auto;
+  border: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  border-color: #0a1747;
 }
 /* for the galery*/
 .galeryrow {
