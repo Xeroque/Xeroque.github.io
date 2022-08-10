@@ -8,6 +8,7 @@ body {
   font-family: 'Space Mono', monospace;
   overflow-x: hidden;
   position: relative
+  width: 1000px;
 }
 html{
   overflow-x: hidden;
@@ -26,9 +27,9 @@ a:hover {
 
 .signature{
   margin-top: -50px;
-  margin-left: 10px;
+  margin-left: 75px;
   margin-right: 10px;
-  width: 90%;
+  width: 70%;
 
 }
 .container{
@@ -37,25 +38,29 @@ a:hover {
 .container .homebutton {
   position: absolute;
   top: 50%;
-  left: 70%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 .myimage{
+  background-image: \images\Eduardo Sousa.jpg;
   width: 120%;
   margin-top: -500px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1365px) {
 
       .myimage {
-        width: 120vw;
-        height: 100PX;
-        margin-left: -15px;
-        object-fit: cover;
-        margin-top: 0px;
+        height: 0PX;
        }
-
+      .myimagemobile{
+        height: 100px;
+      }
 }
+@media (min-width: 1366px) {
+
+      .myimagemobile {
+        height: 0PX;
+       }
 }
 /* for the galery*/
 .galeryrow {
