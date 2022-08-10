@@ -65,6 +65,9 @@ a:hover {
   margin-right: none;
   margin-bottom: 1px;
 }
+.message{
+  width: 370px;
+}
 .contacttable{
   margin-left: auto;
   display: inline-block;
