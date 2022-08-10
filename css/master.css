@@ -100,18 +100,18 @@ width: 33
   font-weight: 400;
   color: white;
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
   background: #8d07f6;
   box-shadow: inset 18px 18px 36px #7806d1,
     inset -18px -18px 36px #a208ff;
   padding: 1vh 1vw 1vh 1vw;
 }
 .contactme:hover {
-  font-weight: 600;
-  color: white;
-  border: none;
-  border-radius: 50px;
-  background: #8d07f6;
+  font-weight: 400;
+  color: #8d07f6;
+  border: #8d07f6;
+  border-radius: 5px;
+  background: white;
   box-shadow: inset 18px 18px 36px #410b6b,
               inset -18px -18px 36px #410b6b;
 
