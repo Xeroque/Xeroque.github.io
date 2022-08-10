@@ -55,6 +55,7 @@ a:hover {
 /*For the Contact Page */
 .contactform{
   padding: 15px;
+  width: 100%;
 }
 .formbox {
   margin-top: none;
