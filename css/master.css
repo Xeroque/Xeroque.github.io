@@ -100,7 +100,8 @@ width: 370px;
   padding: 10px;
   background:  #8d07f6;
   color: white;
-  animation-name: expand
+  animation-name: expand;
+  animation-duration: 1s;
 }
 @keyframes expand {
   from {height: 0px;}
