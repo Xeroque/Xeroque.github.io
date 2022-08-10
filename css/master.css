@@ -38,7 +38,7 @@ a:hover {
   font-weight: 600;
   color: #8d07f6;
 }
-.CVInfo{
+.CVInfo {
   display:inline;
   position: absolute;
   right: 3vw;
@@ -48,11 +48,14 @@ a:hover {
   font-weight: 600;
   color: #0a1747;
 }
-.CVLink{
+.CVLink {
   color: #0a1747;
   text-decoration: underline;
 }
 /*For the Contact Page */
+.formbox {
+  background-color: red;
+}
 .contactme {
   font-weight: 600;
   color: white;
