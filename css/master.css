@@ -219,7 +219,9 @@ opacity: 100%}
   font-size: 5vh;
   color: #0072BB;
 }
-
+.landingcontact{
+  margin-top: -50px;
+}
 /* Titlecard Blinking Cursor*/
 .cursor {
   display: inline-block;
