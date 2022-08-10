@@ -28,6 +28,10 @@ a:hover {
   margin-top: -50px;
   width: 90%;
 }
+.homebutton{
+margin-left: 70%;
+margin-top: -70px;
+}
 /* for the galery*/
 .galeryrow {
   display: flex;
