@@ -105,7 +105,7 @@ width: 370px;
 }
 @keyframes expand {
   from {height: 0px;}
-  to {height: 100%;}
+  to {height: 100px;}
 }
 /* Create four equal columns that sits next to each other */
 .galerycolumn {
