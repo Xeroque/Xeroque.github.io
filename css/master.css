@@ -65,10 +65,10 @@ a:hover {
   border-width: 1px;
   width: 370px;
 }
-.message{
-  width: 370px;
-  height: 100px;
-  vertical-align: top;
+.message textarea {
+    width: 370px;
+    height: 100px;
+    padding: 10px;
 }
 .contacttable{
   margin-left: auto;
