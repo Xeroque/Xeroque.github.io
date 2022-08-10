@@ -66,7 +66,8 @@ a:hover {
   width: 370px;
 }
 .message {
-    width: 370px;
+    columns: 3;
+    word-wrap: normal;
     height: 40px;
     padding: 10px;
     resize: vertical;
