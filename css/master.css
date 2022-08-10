@@ -65,7 +65,7 @@ a:hover {
   border-width: 1px;
   width: 370px;
 }
-.message textarea {
+.message {
     width: 370px;
     height: 40px;
     padding: 10px;
