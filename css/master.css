@@ -43,10 +43,16 @@ a:hover {
   -ms-transform: translate(-50%, -50%);
 }
 .myimage{
-  background-image: \images\Eduardo Sousa.jpg;
-  width: 120%;
-  margin-top: -500px;
+  background-image: url('https://github.com/Xeroque/Xeroque.github.io/blob/master/images/Eduardo%20Sousa.jpg?raw=true');
+  margin-top: -800px;
+  height: 150vh;
+  width: 50vw;
 }
+.myimage:hover{
+  background-color: red;
+  background-image: url('https://github.com/Xeroque/Xeroque.github.io/blob/master/images/Eduardo%20Sousa%20Selected.jpg?raw=true');
+}
+
 @media (max-width: 1365px) {
 
       .myimage {
