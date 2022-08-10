@@ -112,9 +112,6 @@ width: 33
   border: #8d07f6;
   border-radius: 5px;
   background: #F0EFF4;
-  box-shadow: inset 18px 18px 36px #410b6b,
-              inset -18px -18px 36px #410b6b;
-
   padding: 1vh 1vw 1vh 1vw;
 }
 .sucessbanner{
