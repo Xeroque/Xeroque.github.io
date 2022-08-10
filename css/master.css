@@ -64,6 +64,7 @@ a:hover {
   border-left: none;
   border-right: none;
   border-bottom: 1px;
+  border-color: black;
   width: 370px;
 }
 .message{
