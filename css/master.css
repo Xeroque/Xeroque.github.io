@@ -54,7 +54,10 @@ a:hover {
 }
 /*For the Contact Page */
 .formbox {
-  background-color: red;
+  margin-top: none;
+  margin-left: none;
+  margin-right: none;
+  margin-bottom: 1px;
 }
 .contacttable{
   margin: auto;
