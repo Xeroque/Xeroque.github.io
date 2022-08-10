@@ -98,11 +98,13 @@ width: 370px;
 .sucessbanner{
   margin: 10px;
   padding: 10px;
+  background:  #8d07f6;
   color: white;
+  animation-name: expand
 }
-@keyframes sucessbanner {
-  from {background-color: red;}
-  to {background-color: yellow;}
+@keyframes expand {
+  from {height: 0px;}
+  to {height: 100%;}
 }
 /* Create four equal columns that sits next to each other */
 .galerycolumn {
