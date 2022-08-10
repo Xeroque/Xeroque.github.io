@@ -32,6 +32,8 @@ a:hover {
 
 }
 .homebutton{
+position: absolute;
+z-index: 3;
 margin-left: 70%;
 margin-top: -70px;
 }
