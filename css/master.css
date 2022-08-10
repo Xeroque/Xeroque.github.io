@@ -56,6 +56,11 @@ a:hover {
 .formbox {
   background-color: red;
 }
+.contacttable{
+  margin: auto;
+  display: block;
+  margin: 1px;
+}
 .contactme {
   font-weight: 600;
   color: white;
