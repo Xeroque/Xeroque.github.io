@@ -60,10 +60,11 @@ a:hover {
   width: 400px;
 }
 .formbox {
-  margin-top: none;
-  margin-left: none;
-  margin-right: none;
-  margin-bottom: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px;
+  width: 370px;
 }
 .message{
   width: 370px;
