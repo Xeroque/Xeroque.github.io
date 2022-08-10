@@ -60,9 +60,10 @@ a:hover {
   width: 400px;
 }
 .formbox {
-border-style: solid;
-border-width: 1px;
-width: 370px;
+  border-top: none;
+  border-style: solid;
+  border-width: 1px;
+  width: 370px;
 }
 .message{
   width: 370px;
