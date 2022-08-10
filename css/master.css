@@ -53,6 +53,9 @@ a:hover {
   text-decoration: underline;
 }
 /*For the Contact Page */
+.contactform{
+  padding: 15px;
+}
 .formbox {
   margin-top: none;
   margin-left: none;
