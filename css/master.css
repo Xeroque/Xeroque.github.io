@@ -24,6 +24,10 @@ a:hover {
   ;
 }
 
+.signature{
+  margin-top: -50px;
+  width: 90%;
+}
 /* for the galery*/
 .galeryrow {
   display: flex;
