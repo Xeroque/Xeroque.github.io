@@ -69,6 +69,7 @@ a:hover {
 .message{
   width: 370px;
   height: 100px;
+  vertical-align: text-top;
 }
 .contacttable{
   margin-left: auto;
