@@ -42,8 +42,20 @@ a:hover {
   -ms-transform: translate(-50%, -50%);
 }
 .myimage{
-  position: absolute;
-  margin-top: 0px;
+  width: 120%;
+  margin-top: -500px;
+}
+@media (max-width: 1000px) {
+
+      .myimage {
+        width: 120vw;
+        height: 100PX;
+        margin-left: -15px;
+        object-fit: cover;
+        margin-top: 0px;
+       }
+
+}
 }
 /* for the galery*/
 .galeryrow {
@@ -233,7 +245,7 @@ opacity: 100%}
   color: #0F1A20;
 }
 
-.spacer {
+.subtitle {
   margin-left: 5vw;
   margin-right: 5vw;
   padding-bottom: 10vh;
