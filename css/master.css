@@ -100,7 +100,7 @@ width: 33
   font-weight: 400;
   color: white;
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
   background: #8d07f6;
   box-shadow: inset 18px 18px 36px #7806d1,
     inset -18px -18px 36px #a208ff;
@@ -110,7 +110,7 @@ width: 33
   font-weight: 400;
   color: white;
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
   background: #8d07f6;
   box-shadow: inset 18px 18px 36px #410b6b,
               inset -18px -18px 36px #410b6b;
