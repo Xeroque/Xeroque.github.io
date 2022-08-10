@@ -106,7 +106,7 @@ width: 370px;
 }
 @keyframes expand {
   from {height: 0px;
-  color: none;}
+  color: #8d07f6}
   to {height: 100px;
   color: white;}
 
