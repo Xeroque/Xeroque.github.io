@@ -44,8 +44,9 @@ a:hover {
 }
 .myimage{
   background-image: url('https://github.com/Xeroque/Xeroque.github.io/blob/master/images/Eduardo%20Sousa.jpg?raw=true');
-  margin-top: -800px;
-  height: 150vh;
+  background-size: contain;
+  margin-top: -500px;
+  height: 120vh;
   width: 50vw;
 }
 .myimage:hover{
