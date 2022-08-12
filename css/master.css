@@ -12,6 +12,10 @@ body {
   position: relative
   width: 1000px;
 }
+.bg{
+  background-image: url(/images/Background.png);
+  background-size: contain;
+}
 html{
   overflow-x: hidden;
 }
@@ -58,10 +62,10 @@ a:hover {
   color: #F0EFF4;
   background:#8d07f6;
   padding: 20px;
-  transition: background 0.2s ease-in-out;
+  transition: filter 0.2s ease-in-out;
 }
 .calltoactionmain:hover{
-  background: green;
+  filter: brightness(60%);
 }
 .calltoactionsecondary{
   margin-left: 3vw;
@@ -92,7 +96,22 @@ a:hover {
   flex-wrap: wrap;
   padding: 0 4px;
 }
-
+.contacticons{
+  margin: auto;
+  margin-top: 25px;
+  align-items: center;
+}
+.iconcasing{
+  display: inline-grid;
+  margin-left: 25px;
+  height: 70px;
+}
+.icon{
+  transition: filter 0.3s;
+}
+.icon:hover{
+  filter:brightness(40%);
+}
 /* for the C.V.*/
 .CV {
   padding: 3vh 3vw 3vh 3vw;
