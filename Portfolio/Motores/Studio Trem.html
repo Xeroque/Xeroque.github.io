@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178394785-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-178394785-1');
+</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta charset="utf-8">
+  <title>Urban Photography Showcase | Eduardo Sousa Portfolio </title>
+  <!-- importing Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- importing Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- linking master css -->
+  <link rel="stylesheet" href="/css/master.css">
+  <!-- linking Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <!-- legacy font -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet"> -->  <!-- importing Favicon -->
+  <link rel="icon" href="https://raw.githubusercontent.com/Xeroque/Xeroque.github.io/master/favicon.ico"/>
+</head>
+
+<body>
+  <!-- navbar beginning -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="/index.html">Eduardo S.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <!-- <a class="nav-item nav-link active" href="#">Me <span class="sr-only">(current)</span></a> -->
+      <a class="nav-item nav-link" download="EduardoSousaCV" href="EduardoSousa-CV.pdf">C.V.</a>
+      <a class="nav-item nav-link" href="/Contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+  <!-- large titlecard -->
+  <div class="album py-5">
+    <div class="container">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h1 class="CVHeading">Urban Photography</h1>
+          <h3 class="CVInfo">∙2019 <br> ∙UEMG</h3>
+          <br>
+          <p>&nbsp;&nbsp;&nbsp;This is a showcase of my urban photography.
+          </p>
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_1.jpg" alt="forms">
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_2.jpg" alt="forms">
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_3.jpg" alt="forms">
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_4.jpg" alt="forms">
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_5.jpg" alt="forms">
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_6.jpg" alt="forms">
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_7.jpg" alt="forms">
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_8.jpg" alt="forms">
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_9.jpg" alt="forms">
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_10.jpg" alt="forms">
+          <br>
+          <img class="blogimage" src="\images\UrbanPhotography\UrbanPhotography_11.jpg" alt="forms">
+          <br>
+          <hr>
+          <!-- contact page button -->
+          <a href="\Contact.html"><button class="contactme">Talk to me about this</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cookie consent checker -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.addEventListener('load', function(){
+  window.cookieconsent.initialise({
+   revokeBtn: "<div class='cc-revoke'></div>",
+   type: "opt-in",
+   theme: "classic",
+   palette: {
+       popup: {
+           background: "#000",
+           text: "#fff"
+        },
+       button: {
+           background: "#fd0",
+           text: "#000"
+        }
+    },
+   content: {
+       link: "About consent",
+       href: "https://2gdpr.com/cookies"
+    },
+    onInitialise: function(status) {
+      if(status == cookieconsent.status.allow) myScripts();
+    },
+    onStatusChange: function(status) {
+      if (this.hasConsented()) myScripts();
+    }
+  })
+});
+
+function myScripts() {
+
+   // Paste here your scripts that use cookies requiring consent. See examples below
+
+   // Google Analytics, you need to change 'UA-00000000-1' to your ID
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-178394785-1', 'auto');
+      ga('send', 'pageview');
+
+
+   // Facebook Pixel Code, you need to change '000000000000000' to your PixelID
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '000000000000000');
+      fbq('track', 'PageView');
+
+}
+</script>
+</body>
+
+</html>
